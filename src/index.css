@@ -1,13 +1,248 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#goalsha {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.iconfoot {
+  padding: 83px 0px;
+}
+
+.icontxt {
+  font-size: 18px;
+}
+
+.mail-box {
+  align-items: center;
+}
+
+.owl-prev {
+  display: none !important;
+}
+
+.thirdcard {
+  width: 245px !important;
+}
+
+.owl-next span {
+  font-size: 43px;
+  background-color: white;
+  padding: 4px 27px 11px;
+  border-radius: 50%;
+  color: #000 !important;
+  box-shadow: 0 0 50px #ccc;
+}
+
+.owl-prev span {
+  font-size: 43px;
+  background-color: white;
+  padding: 4px 27px 11px;
+  border-radius: 50%;
+  color: #000 !important;
+  box-shadow: 0 0 50px #ccc;
+}
+
+.owl-next {
+  position: absolute;
+  top: 40%;
+  right: -70px;
+}
+
+.owl-next:hover {
+  font-size: 43px;
+  background-color: white !important;
+  padding: 4px 27px 11px;
+  border-radius: 50% !important;
+  padding: 5px 25px 10px;
+}
+
+.slidebg-help {
+  padding-bottom: 284px;
+  border-radius: 50px;
+  width: 1419px !important;
+  margin: 0 auto;
+  position: relative;
+  left: -60px;
+}
+
+.mycarousel {
+  position: absolute;
+  bottom: -90px;
+  left: 0;
+  width: inherit;
+}
+
+.owl-carousel .item {
+  width: 83%;
+  margin: 0 auto;
+}
+
+.my-radius-20 {
+  border-radius: 20px !important;
+}
+
+.text-para-1729 {
+  font-weight: 500;
+  padding: 15px 25px 40px;
+  font-size: 16px;
+}
+
+.st-heading {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55px;
+}
+
+.size-18para {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.btn-help-click {
+  padding: 20px 65px !important;
+  font-size: 21px !important;
+  font-weight: 600;
+  background-color: #1492E6 !important;
+  margin-top: 25px;
+}
+
+.btn-help-click:hover {
+  background-color: #065c96 !important;
+}
+
+.arrngetopbottom {
+  padding: 155px 0px;
+}
+
+.slide-img-1729 {
+  width: 250px;
+  margin: 0 auto;
+  height: 97px;
+}
+
+.active {
+  font-size: 20px;
+}
+
+.emply-size17 {
+  font-size: 16px;
+}
+
+.emply-size1729 {
+  font-size: 17px;
+}
+
+/* Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 768px) and (max-width: 1024.98px) {
+  .slidebg-help {
+    padding-bottom: 284px;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: relative;
+    width: 100% !important;
+    left: 0px;
+  }
+
+  .thirdcard {
+    width: 184px !important;
+  }
+
+  .text-para-1729 {
+    font-size: 14px;
+  }
+
+  .owl-next {
+    position: absolute;
+    top: 40%;
+    right: -25px;
+  }
+
+  .arrngetopbottom {
+    padding: 15px 0px;
+  }
+
+  .mycarousel {
+    position: absolute;
+    bottom: -95px;
+    left: 0;
+    width: inherit;
+  }
+}
+
+/* X-Small devices (portrait tab, less than 768px) */
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  .thirdcard {
+    width: 140px;
+  }
+
+  .slidebg-help {
+    padding-bottom: 284px;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    width: 993px !important;
+  }
+
+  .text-para-1729 {
+    font-size: 14px;
+  }
+
+  .owl-next {
+    position: absolute;
+    top: 40%;
+    right: -25px;
+  }
+
+  .arrngetopbottom {
+    padding: 11px 0px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 576px) {
+  .slidebg-help {
+    padding-bottom: 284px;
+    border-radius: 50px;
+    width: 100% !important;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+  }
+
+  .mycarousel {
+    position: relative;
+  }
+
+  .slidebg-help {
+    padding-bottom: 2px;
+  }
+
+  .btn-help-click {
+    padding: 20px 53px !important;
+    font-size: 21px !important;
+    font-weight: 600;
+    background-color: #1492E6 !important;
+    margin-top: 10px;
+  }
+
+  .arrngetopbottom {
+    padding: 5px 0px;
+  }
+
+  .owl-next {
+    position: relative;
+    top: 40%;
+    right: 0px;
+  }
+
+  .owl-carousel .item {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
